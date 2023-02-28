@@ -7,12 +7,11 @@ long ArraySize = 1000;
 int MinArrayValue = 0;
 int MaxArrayValue = 100000; //int.MaxValue;
 
-Console.WriteLine("Hello, World!");
 Console.WriteLine();
 
 // Creates an array with the size of "arraySize" elements of type Int
 // and fill it an random units
-int[] initialArray(long arraySize)
+int[] InitialArray(long arraySize)
 {
     //long arraySize = 1000;
     int[] newArray = new int[arraySize] ;
@@ -27,7 +26,7 @@ int[] initialArray(long arraySize)
 }
 
 // create new array
-int[] unsortedArray = initialArray(ArraySize);
+int[] unsortedArray = InitialArray(ArraySize);
 
 // sorting
 
